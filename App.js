@@ -13,7 +13,7 @@ export default function App() {
 
                 <View style={{ alignSelf: "center" }}>
                     <View style={styles.profileImage}>
-                        <Image source={require("./assets/profile-pic.jpg")} style={styles.image} resizeMode="center"></Image>
+                        <Image source={require("./assets/profile-pic.jpg")} style={styles.image} resizeMode="cover"></Image>
                     </View>
                     <View style={styles.dm}>
                         <MaterialIcons name="chat" size={18} color="#DFD8C8"></MaterialIcons>
